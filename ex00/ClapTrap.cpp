@@ -2,8 +2,8 @@
 
 
 ClapTrap::ClapTrap(const std::string name)
-    //: _name(name), _hitPoints(10), _energyPoints(10), _attackDamage(0)
-    : _name(name), _hitPoints(5), _energyPoints(5), _attackDamage(2)
+    : _name(name), _hitPoints(10), _energyPoints(10), _attackDamage(0)
+    //: _name(name), _hitPoints(5), _energyPoints(5), _attackDamage(2) // for testing purposes in main.cpp
 {
     std::cout << "Default constructor for ClapTrap '" << this->_name << "' called" << std::endl;
 }
@@ -77,15 +77,31 @@ void    ClapTrap::beRepaired(const int amount)
         std::cout << "Amount to repair has to be bigger than 0!" << std::endl;
 }
 
+std::string     ClapTrap::getName() const
+{
+    return (this->_name);
+}
+
+unsigned int    ClapTrap::getHitPoints() const
+{
+    return (this->_hitPoints);
+}
+
+unsigned int    ClapTrap::getEnergyPoints() const
+{
+    return (this->_energyPoints);
+}
+
 unsigned int    ClapTrap::getAttackDamage() const
 {
     return (this->_attackDamage);
 }
 
-//std::ostream &operator<<(std::ostream &o, const ClapTrap &ct)
-//{
-    //o << ct._name << "\nhit points: " << ct._hitPoints
-        //<< "\nenergy points: " << ct._energyPoints
-        //<< "\nattack damage: " << ct._attackDamage;
-    //return (o);
-//}
+std::ostream &operator<<(std::ostream &o, const ClapTrap &ct)
+{
+    o << ct.getName() << "\nhit points: " << ct.getHitPoints()
+        << "\nenergy points: " << ct.getEnergyPoints()
+        << "\nattack damage: " << ct.getAttackDamage()
+        << "\n";
+    return (o);
+}

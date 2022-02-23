@@ -25,7 +25,7 @@ Implement a DiamondTrap, that is a ClapTrap, but also inherits from ScavTrap AND
 
 ## Learnings
 
-Nice refresher for inheritance in OOP, and especially my first learning about 'Diamond Inheritance'.
+Nice refresher for inheritance in OOP, and especially my first contact with the concept of 'Diamond Inheritance'.
 
 ### Resources
 

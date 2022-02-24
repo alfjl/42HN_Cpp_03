@@ -31,5 +31,6 @@ Nice refresher for inheritance in OOP, and especially my first contact with the 
 
 * [cplusplus.com](http://www.cplusplus.com/)
 * [Multiple Inheritance](https://www.cprogramming.com/tutorial/multiple_inheritance.html)
+* [Virtual Inheritance](https://www.cprogramming.com/tutorial/virtual_inheritance.html)
 * [Virtual Inheritance video](https://www.youtube.com/watch?v=vZPkYvsqQxQ)
 

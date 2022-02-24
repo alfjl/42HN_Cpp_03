@@ -8,12 +8,14 @@ int main(void)
     ScavTrap    st3(st1);
     ScavTrap    st4("Name changing Nancy");
     FragTrap    ft1("Fragging Fridolin");
+    FragTrap    ft2;
 
     std::cout << st1 << std::endl;
     std::cout << st2 << std::endl;
     std::cout << st3 << std::endl;
     std::cout << st4 << std::endl;
     std::cout << ft1 << std::endl;
+    std::cout << ft2 << std::endl;
     
 
     std::cout << "\n######### st1 attacks st2 #########\n\n" << std::endl;
@@ -81,6 +83,7 @@ int main(void)
     std::cout << st2 << std::endl;
     std::cout << st3 << std::endl;
     std::cout << ft1 << std::endl;
+    std::cout << ft2 << std::endl;
 
 
     return (0);

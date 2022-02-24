@@ -12,9 +12,10 @@ protected:
     unsigned int    _attackDamage;
 
 public:
+    ClapTrap(void);
     ClapTrap(const std::string name);
     ClapTrap(const ClapTrap &other);
-    ~ClapTrap();
+    ~ClapTrap(void);
 
     ClapTrap    &operator=(const ClapTrap &src);
 

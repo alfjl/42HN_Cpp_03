@@ -6,6 +6,7 @@ int main(void)
     ScavTrap    ct2("The always loosing Lothar");
     ScavTrap    ct3(ct1);
     ScavTrap    ct4("Name changing Nancy");
+    ScavTrap    ct5;    
 
     std::cout << "\n######### ct1 attacks ct2 #########\n\n" << std::endl;
     ct1.attack("The always loosing Lothar");
@@ -62,7 +63,8 @@ int main(void)
     std::cout << ct1 << std::endl;
     std::cout << ct2 << std::endl;
     std::cout << ct3 << std::endl;
-
+    std::cout << ct4 << std::endl;
+    std::cout << ct5 << std::endl;
 
     return (0);
 }

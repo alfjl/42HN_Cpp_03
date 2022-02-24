@@ -1,5 +1,6 @@
 #include "ScavTrap.hpp"
 #include "FragTrap.hpp"
+#include "DiamondTrap.hpp"
 
 int main(void)
 {
@@ -9,12 +10,21 @@ int main(void)
     ScavTrap    st4("Name changing Nancy");
     FragTrap    ft1("Fragging Fridolin");
 
+
     std::cout << st1 << std::endl;
     std::cout << st2 << std::endl;
     std::cout << st3 << std::endl;
     std::cout << st4 << std::endl;
     std::cout << ft1 << std::endl;
     
+
+    std::cout << "\n######### Diamond Problem #########\n\n" << std::endl;
+    DiamondTrap dt1("DIAMOND1");
+    DiamondTrap dt2(dt1);
+    dt1.whoAmI();
+    std::cout << dt1 << std::endl;
+    std::cout << dt2 << std::endl;
+
 
     std::cout << "\n######### st1 attacks st2 #########\n\n" << std::endl;
     st1.attack("Literaly always loosing Lothar");

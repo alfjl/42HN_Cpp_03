@@ -1,6 +1,7 @@
 NAME = a.out
 CC = c++
 CFLAGS = -Wall -Wextra -Werror
+#CFLAGS = -Wall -Wextra -Werror -Wshadow -Wno-shadow
 SRC = main.cpp \
 	  ClapTrap.cpp \
 	  ScavTrap.cpp \

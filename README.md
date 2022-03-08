@@ -16,8 +16,7 @@ Implement a ScavTrap class, that derives from the ClapTrap class and inherits Cl
 (first, simple intro to inheritance)
 
 ex02:  
-Implement a FragTrap class, inheriting from ClapTrap class. Constructor and destructor have to be different from ClapTrap class.
-  
+Implement a FragTrap class, inheriting from ClapTrap class. Constructor and destructor have to be different from ClapTrap class.  
 (understanding how constructors & destructors work between related classes)
 
 ex03:  
